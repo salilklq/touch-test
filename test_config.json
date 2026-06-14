@@ -1,0 +1,15 @@
+{
+    "mode": "test",
+    "port": "COM3",
+    "speed": 300,
+    "force": 300,
+    "hand_id": 1,
+    "loop_count": 0,
+    "loop_actions": [
+        {"name": "动作1：大拇指翻转", "positions": [1000, 0, 0, 0, 0, 0], "delay": 0.5},
+        {"name": "动作2：大拇指弯曲", "positions": [1000, 1000, 0, 0, 0, 0], "delay": 0.5},
+        {"name": "动作3：全部归零", "positions": [0, 0, 0, 0, 0, 0], "delay": 0.5},
+        {"name": "动作4：四指弯曲", "positions": [0, 0, 1000, 1000, 1000, 1000], "delay": 1.0},
+        {"name": "动作5：全部归零", "positions": [0, 0, 0, 0, 0, 0], "delay": 1.0}
+    ]
+}
